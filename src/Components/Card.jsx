@@ -16,8 +16,14 @@ const Card = (props) => {
             {title}
           </h5>
           <div className="flex items-center justify-between font-normal text-gray-400">
-            <img src={personalImg} alt="personalImage" className="rounded-full"/>
-            <p>{author}</p>
+            <div className="flex items-center gap-3">
+              <img
+                src={personalImg}
+                alt="personalImage"
+                className="rounded-full"
+              />
+              <p>{author}</p>
+            </div>
             <p>{date}</p>
           </div>
         </div>
