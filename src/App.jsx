@@ -10,7 +10,7 @@ function App() {
     <Router>
       <SearchProvider>
         <Routes>
-          <Route path="/" element={<Layout />}> 
+          <Route path="/Blog-App" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="*" element={<NotFound />} />
             <Route path="posts/:postTitle" element={<Post />} />
