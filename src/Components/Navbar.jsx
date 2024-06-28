@@ -10,7 +10,7 @@ const Navbar = () => {
           <img src={logoImg} alt="logoImg" />
           <h1 className="text-4xl font-bold">Blog</h1>
         </div>
-        <Link to="/" className="text-lg font-semibold">
+        <Link to="/Blog-App" className="text-lg font-semibold">
           Home
         </Link>
         <div className="flex items-center p-3 bg-gray-100 rounded-lg ps-6">
