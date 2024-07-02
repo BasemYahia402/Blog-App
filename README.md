@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Design](#design)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -35,6 +36,9 @@ To install and run the Note App locally, follow these steps:
     ```bash
     npm run dev
     ```
+    
+## Design
+[Figma Design](https://www.figma.com/design/Pz9qMF1LLYVwvrbCRixGv1/Almdrasa-blog-ui?node-id=1-2&t=FWoW4qLCXfgtYAN4-0)
 
 ## Screenshots
 
